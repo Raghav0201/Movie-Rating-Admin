@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+*{
+    font-family: "Inter",sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 700px;
+    margin: 40px auto;
+}
+h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px dotted #ccc;
+    color: rgba(26, 14, 14, 0.486);
+}
+.bt{
+    display: flex;
+    color: rgb(31, 158, 158);
+    padding: 8px 11px; 
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(55, 82, 88);
+}
+.s{
+    background-color: rgb(255, 217, 160);
+}
+.A{
+    color: darkslategray;
+    background-color: rgba(189, 224, 255, 0.74);
+}
+.bt.s:hover{
+    background-color: rgb(243, 198, 100);
+}
+.bt.A:hover{
+    background-color: rgb(192, 253, 255);
+}
+.bt.G:hover{
+    background-color: rgb(115, 216, 221);
+}
+.input-search{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.input-search input{
+    width: 400px;
+    padding: 6px;
+    border-radius: 5px;
+    border: 2px solid #afa7a7;
+    outline: none;
+    align-items: center;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    cursor: pointer;
+}
+.table th,.table td{
+    align-items:center;
+    border: 1px solid #ccc;
+    padding: 7px;
+}
+.table th{
+    background-color: rgba(214, 214, 214, 0.425);
+}
+.table tr:hover{
+    background-color: #cccccc34;
+}
+.modal{
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(71, 71, 71, 0.425);
+    overflow: auto;
+}
+.modal-content{
+    background-color: rgb(255, 255, 255);
+    margin:10% auto;
+    padding: 20px;
+    border: 1px solid #888888a8;
+    width: 70%;
+    text-align: left;
+}
+.modal-content h2{
+    text-align: center;
+}
+.close{
+    color: #535353;
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus{
+    color: black;
+    cursor: pointer;
+}
+.modal h2{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.inputgroup{
+    margin-bottom: 20px;
+}
+.inputgroup label{
+    display: block;
+    margin-bottom: 5px;
+}
+.inputgroup input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid rgb(175, 175, 175);
+    outline: none;
+}
