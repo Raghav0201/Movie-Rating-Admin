@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "movie": "LOVETODAY",
+    "rating": "9",
+    "genre": "Romance"
+  },
+  {
+    "id": 2,
+    "movie": "KGF CHAPTER 1",
+    "rating": "9.5",
+    "genre": "Action"
+  },
+  {
+    "id": 4,
+    "movie": "COMALI",
+    "rating": "10",
+    "genre": "Comedy"
+  },
+  {
+    "id": 6,
+    "movie": "JERSEY",
+    "rating": "9",
+    "genre": "Sports"
+  },
+  {
+    "id": 1743486840734,
+    "movie": "DADA",
+    "rating": "9.5",
+    "genre": "Drama"
+  },
+  {
+    "id": 1747139324332,
+    "movie": "KGF CHAPTER 2",
+    "rating": "10",
+    "genre": "Action"
+  },
+  {
+    "id": 1747139347756,
+    "movie": "SALAAR",
+    "rating": "9.5",
+    "genre": "Action"
+  }
+]
