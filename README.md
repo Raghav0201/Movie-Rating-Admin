@@ -20,6 +20,6 @@ A full-stack web app to read, create, update, and delete film reviews with authe
 - **Authentication:** JWT, bcrypt
 
 
-
+![Image](https://github.com/user-attachments/assets/9714c256-56f6-49da-bcf2-d9d350763d8c)
 
 
