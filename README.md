@@ -19,24 +19,6 @@ A full-stack web app to read, create, update, and delete film reviews with authe
 - **Database:** MongoDB with Mongoose
 - **Authentication:** JWT, bcrypt
 
- 🖇Project Structure
-
-movie-rating-app/
-├── client/ # React frontend
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── context/AuthContext.js
-│ │ └── utils/api.js
-│ └── package.json
-├── server/ # Node.js + Express backend
-│ ├── models/
-│ ├── routes/
-│ ├── controllers/
-│ ├── middleware/
-│ ├── utils/
-│ └── server.js
-└── README.md
 
 📌 API Endpoints
 POST /api/auth/register – Register user
@@ -45,4 +27,6 @@ GET /api/movies/ – Get all movies
 POST /api/movies/ – Add movie
 PUT /api/movies/:id – Update movie
 DELETE /api/movies/:id – Delete movie
+
+
 
