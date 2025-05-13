@@ -20,13 +20,6 @@ A full-stack web app to read, create, update, and delete film reviews with authe
 - **Authentication:** JWT, bcrypt
 
 
-📌 API Endpoints
-POST /api/auth/register – Register user
-POST /api/auth/login – Login user
-GET /api/movies/ – Get all movies
-POST /api/movies/ – Add movie
-PUT /api/movies/:id – Update movie
-DELETE /api/movies/:id – Delete movie
 
 
 
