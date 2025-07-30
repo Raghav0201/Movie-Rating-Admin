@@ -4,13 +4,13 @@ A full-stack web app to read, create, update, and delete film reviews with authe
 
 🔥 Features
 
-- ✅ User Registration and Login
-- 🔐 Password hashing using bcrypt
-- 🔑 JWT-based authentication with 7-day session expiry
-- 🎥 Add, View, Update, Delete Movies
-- ⭐ Rate and Review Movies
-- 📦 MongoDB for persistent storage using Mongoose
-- 🧭 Clean API structure (RESTful)
+-  User Registration and Login
+-  Password hashing using bcrypt
+-  JWT-based authentication with 7-day session expiry
+-  Add, View, Update, Delete Movies
+-  Rate and Review Movies
+-  MongoDB for persistent storage using Mongoose
+-  Clean API structure (RESTful)
 
 🛠️ Tech Stack
 
