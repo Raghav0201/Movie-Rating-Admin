@@ -2,7 +2,9 @@
 
 A full-stack web app to read, create, update, and delete film reviews with authentication. Developed on the **MERN stack**, this project illustrates basic CRUD operations, secure login, and MongoDB integration.
 
-** Features
+---
+
+## Features
 
 -  User Registration and Login
 -  Password hashing using bcrypt
@@ -12,12 +14,16 @@ A full-stack web app to read, create, update, and delete film reviews with authe
 -  MongoDB for persistent storage using Mongoose
 -  Clean API structure (RESTful)
 
-** Tech Stack
+---
+
+## Tech Stack
 
 - **Frontend:** React.js, Axios, Tailwind CSS (optional)
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB with Mongoose
 - **Authentication:** JWT, bcrypt
+
+---
 
 OUTPUT :
 
