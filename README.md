@@ -1,27 +1,25 @@
 🎬 MOVIE RATING WEBSITE
 
-A full-stack web app to read, create, update, and delete film reviews with authentication. Developed on the **MERN stack**, this project illustrates basic CRUD operations, secure login, and MongoDB integration.
+A full-stack web application to create, read, update, and delete movie reviews. Built using the MERN stack, this project demonstrates basic CRUD operations with local JSON file storage and dynamic UI interactions.
 
 ---
 
 ## Features
 
--  User Registration and Login
--  Password hashing using bcrypt
--  JWT-based authentication with 7-day session expiry
--  Add, View, Update, Delete Movies
--  Rate and Review Movies
--  MongoDB for persistent storage using Mongoose
--  Clean API structure (RESTful)
+- Add, View, Update, and Delete Movies
+- Sort and Filter movie entries
+- Responsive UI built with React.js
+- Backend built with Express.js, handling all CRUD APIs
+- Data stored in a local JSON file (no database)
+- Modular and clean API structure following RESTful conventions
 
 ---
 
 ## Tech Stack
 
-- **Frontend:** React.js, Axios, Tailwind CSS (optional)
+- **Frontend:** React.js
 - **Backend:** Node.js, Express.js
-- **Database:** MongoDB with Mongoose
-- **Authentication:** JWT, bcrypt
+- **Database:** Local JSON file 
 
 ---
 
@@ -49,3 +47,4 @@ Edit Movies :
 
 Delete Movies :
 ![Image](https://github.com/user-attachments/assets/2b402c80-e067-49cb-91a8-fe411d4be1c5)
+
